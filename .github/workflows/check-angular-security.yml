@@ -1,0 +1,46 @@
+name: Check Angular Security Advisories
+
+on:
+  schedule:
+    # 매일 오전 8시 (KST) = 매일 오전 11시 (UTC, 한국 시간 -9시간)
+    # 참고: GitHub Actions는 UTC 기준으로 동작
+    - cron: '0 23 * * *'  # 한국 시간 오전 8시 = UTC 23시 (전날)
+  workflow_dispatch:  # 수동 실행 가능
+
+jobs:
+  check-advisories:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      
+      - name: Setup PNPM
+        uses: pnpm/action-setup@v3
+        with:
+          version: 9
+          
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
+        
+      - name: Check for new security advisories
+        id: check
+        env:
+          GOOGLE_CHAT_WEBHOOK: ${{ secrets.GOOGLE_CHAT_WEBHOOK }}
+        run: node scripts/check-advisories.js
+        
+      - name: Commit updated advisory history
+        if: steps.check.outputs.new_advisories == 'true'
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add data/advisories.json
+          git commit -m "Update Angular security advisories [skip ci]" || echo "No changes to commit"
+          git push

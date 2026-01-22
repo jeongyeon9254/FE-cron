@@ -1,0 +1,26 @@
+{
+  "name": "fe-cron",
+  "version": "1.0.0",
+  "description": "Angular Security Advisories Monitor",
+  "main": "scripts/check-advisories.js",
+  "scripts": {
+    "check": "node scripts/check-advisories.js",
+    "test": "echo \"No tests specified\" && exit 0"
+  },
+  "keywords": [
+    "angular",
+    "security",
+    "monitoring",
+    "github-actions"
+  ],
+  "author": "",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0",
+    "pnpm": ">=8.0.0"
+  },
+  "packageManager": "pnpm@9.0.0",
+  "dependencies": {
+    "dotenv": "^16.4.5"
+  }
+}
