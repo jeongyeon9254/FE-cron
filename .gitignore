@@ -2,7 +2,7 @@
 node_modules/
 
 # PNPM
-pnpm-lock.yaml
+# pnpm-lock.yaml은 Git에 포함 (CI/CD를 위해 필요)
 .pnpm-debug.log
 
 # Environment variables

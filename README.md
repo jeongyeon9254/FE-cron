@@ -179,10 +179,16 @@ MIT License
 ### 주요 명령어
 
 ```bash
-pnpm install          # 의존성 설치
+pnpm install          # 의존성 설치 (pnpm-lock.yaml 생성/업데이트)
 pnpm check            # 보안 체크 스크립트 실행
 pnpm test             # 테스트 실행
 ```
+
+### 중요 파일
+
+- **`pnpm-lock.yaml`**: 의존성 잠금 파일 (Git에 포함되어야 함)
+  - GitHub Actions에서 정확한 버전 재현을 위해 필수
+  - `.gitignore`에서 제외되어 있음
 
 ---
 
