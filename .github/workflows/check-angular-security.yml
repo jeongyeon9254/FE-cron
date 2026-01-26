@@ -3,7 +3,7 @@ name: Check Angular Security Advisories
 on:
   schedule:
     # 테스트용: 5분마다 실행 (확인 후 제거 예정)
-    - cron: '*/1 * * * *'
+    - cron: '*/5 * * * *'
     # 실제 운영: 매일 오전 8시 (KST)
     - cron: '00 23 * * *'  # 한국 시간 오전 8시 = UTC 23시 (전날)
   workflow_dispatch:  # 수동 실행 가능
