@@ -1,4 +1,4 @@
-name: Check Angular Security Advisories
+name: Angular Security Advisories
 
 on:
   schedule:
