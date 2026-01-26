@@ -1,33 +1,5 @@
 {
   "advisories": [
-    {
-      "ghsa_id": "GHSA-jrmj-c5cx-3cw6",
-      "summary": "XSS Vulnerability via Unsanitized SVG Script Attributes",
-      "html_url": "https://github.com/angular/angular/security/advisories/GHSA-jrmj-c5cx-3cw6",
-      "published_at": "2026-01-08T20:57:50Z",
-      "severity": "high"
-    },
-    {
-      "ghsa_id": "GHSA-v4hv-rgfq-gp49",
-      "summary": "Stored XSS Vulnerability via SVG Animation, SVG URL and MathML Attributes",
-      "html_url": "https://github.com/angular/angular/security/advisories/GHSA-v4hv-rgfq-gp49",
-      "published_at": "2025-12-01T11:54:06Z",
-      "severity": "high"
-    },
-    {
-      "ghsa_id": "GHSA-58c5-g7wp-6w37",
-      "summary": "XSRF Token Leakage via Protocol-Relative URLs in Angular HTTP Client",
-      "html_url": "https://github.com/angular/angular/security/advisories/GHSA-58c5-g7wp-6w37",
-      "published_at": "2025-11-26T08:36:38Z",
-      "severity": "high"
-    },
-    {
-      "ghsa_id": "GHSA-68x2-mx4q-78m7",
-      "summary": "Angular SSR: Global Platform Injector Race Condition Leads to Cross-Request Data Leakage",
-      "html_url": "https://github.com/angular/angular/security/advisories/GHSA-68x2-mx4q-78m7",
-      "published_at": "2025-09-10T19:57:21Z",
-      "severity": "high"
-    }
   ],
   "lastChecked": "2026-01-22T07:36:17.412Z"
 }
