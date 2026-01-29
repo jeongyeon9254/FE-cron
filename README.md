@@ -106,7 +106,7 @@ pnpm check
 
 ## 📊 작동 원리
 
-1. **환경 감지**: 
+1. **환경 감지**:
    - GitHub Actions 환경: Secret에서 Webhook URL 자동 로드
    - 로컬 환경: `.env` 파일에서 Webhook URL 로드
 2. **데이터 수집**: GitHub API를 통해 Angular 저장소의 보안 권고사항 목록 가져오기
@@ -192,4 +192,4 @@ pnpm test             # 테스트 실행
 
 ---
 
-**Note**: 이 프로젝트는 Node.js 18 이상, PNPM 8 이상 버전을 요구합니다. GitHub Actions는 자동으로 Node.js 20과 PNPM 9를 사용합니다.
+수정하지 않습니다.
