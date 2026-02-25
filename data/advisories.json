@@ -1,6 +1,13 @@
 {
   "advisories": [
     {
+      "ghsa_id": "GHSA-prjf-86w9-mfqv",
+      "summary": "Cross-Site Scripting (XSS) in Angular i18n",
+      "html_url": "https://github.com/angular/angular/security/advisories/GHSA-prjf-86w9-mfqv",
+      "published_at": "2026-02-25T20:43:36Z",
+      "severity": "high"
+    },
+    {
       "ghsa_id": "GHSA-jrmj-c5cx-3cw6",
       "summary": "XSS Vulnerability via Unsanitized SVG Script Attributes",
       "html_url": "https://github.com/angular/angular/security/advisories/GHSA-jrmj-c5cx-3cw6",
@@ -29,5 +36,5 @@
       "severity": "high"
     }
   ],
-  "lastChecked": "2026-01-26T08:08:42.295Z"
+  "lastChecked": "2026-02-25T23:45:50.491Z"
 }
