@@ -1,6 +1,13 @@
 {
   "advisories": [
     {
+      "ghsa_id": "GHSA-45q2-gjvg-7973",
+      "summary": "SSRF via protocol-relative and backslash URLs in Angular Platform-Server",
+      "html_url": "https://github.com/angular/angular/security/advisories/GHSA-45q2-gjvg-7973",
+      "published_at": "2026-04-16T07:12:25Z",
+      "severity": "high"
+    },
+    {
       "ghsa_id": "GHSA-g93w-mfhg-p222",
       "summary": "XSS in i18n attribute bindings",
       "html_url": "https://github.com/angular/angular/security/advisories/GHSA-g93w-mfhg-p222",
@@ -43,5 +50,5 @@
       "severity": "high"
     }
   ],
-  "lastChecked": "2026-03-13T11:45:36.250Z"
+  "lastChecked": "2026-04-16T12:08:58.452Z"
 }
