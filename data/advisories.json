@@ -1,6 +1,13 @@
 {
   "advisories": [
     {
+      "ghsa_id": "GHSA-rfh7-fxqc-q52v",
+      "summary": "SSRF via Hostname Hijacking in @angular/platform-server",
+      "html_url": "https://github.com/angular/angular/security/advisories/GHSA-rfh7-fxqc-q52v",
+      "published_at": "2026-05-14T05:40:25Z",
+      "severity": "high"
+    },
+    {
       "ghsa_id": "GHSA-45q2-gjvg-7973",
       "summary": "SSRF via protocol-relative and backslash URLs in Angular Platform-Server",
       "html_url": "https://github.com/angular/angular/security/advisories/GHSA-45q2-gjvg-7973",
@@ -50,5 +57,5 @@
       "severity": "high"
     }
   ],
-  "lastChecked": "2026-04-16T12:08:58.452Z"
+  "lastChecked": "2026-05-14T13:04:16.467Z"
 }
