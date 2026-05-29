@@ -1,11 +1,60 @@
 {
   "advisories": [
     {
+      "ghsa_id": "GHSA-95qp-cmmw-mgqv",
+      "summary": "Request Credential & Cache Policy Stripping in Angular Service Worker",
+      "html_url": "https://github.com/angular/angular/security/advisories/GHSA-95qp-cmmw-mgqv",
+      "published_at": "2026-05-28T17:58:40Z",
+      "severity": "medium"
+    },
+    {
+      "ghsa_id": "GHSA-q94j-3wj3-4xcm",
+      "summary": "Remote Code Execution via JSDoc Hover Command Injection in VS Code Angular Language Service Extension",
+      "html_url": "https://github.com/angular/angular/security/advisories/GHSA-q94j-3wj3-4xcm",
+      "published_at": "2026-05-28T17:37:25Z",
+      "severity": "high"
+    },
+    {
+      "ghsa_id": "GHSA-xrxm-cp7j-8xf6",
+      "summary": "URL Parser Differential in @angular/platform-server leading to SSRF Allowlist Bypass",
+      "html_url": "https://github.com/angular/angular/security/advisories/GHSA-xrxm-cp7j-8xf6",
+      "published_at": "2026-05-28T17:02:37Z",
+      "severity": "high"
+    },
+    {
+      "ghsa_id": "GHSA-692r-grfm-v8x7",
+      "summary": "Angular Template and Dynamic Component Namespace Bypass leading to Cross-Site Scripting (XSS)",
+      "html_url": "https://github.com/angular/angular/security/advisories/GHSA-692r-grfm-v8x7",
+      "published_at": "2026-05-28T17:03:43Z",
+      "severity": "medium"
+    },
+    {
+      "ghsa_id": "GHSA-gv2q-mqqv-365m",
+      "summary": "Request Redirect Policy Bypass in Angular Service Worker",
+      "html_url": "https://github.com/angular/angular/security/advisories/GHSA-gv2q-mqqv-365m",
+      "published_at": "2026-05-28T17:02:54Z",
+      "severity": "medium"
+    },
+    {
+      "ghsa_id": "GHSA-p3vc-36g9-x9gr",
+      "summary": "Denial of Service (DoS) via OOM in Number Formatting (digitsInfo)",
+      "html_url": "https://github.com/angular/angular/security/advisories/GHSA-p3vc-36g9-x9gr",
+      "published_at": "2026-05-28T17:04:13Z",
+      "severity": "high"
+    },
+    {
+      "ghsa_id": "GHSA-q6f4-qqrg-jv6x",
+      "summary": "Information Leak via Default Caching of Credentialed Requests in HttpTransferCache",
+      "html_url": "https://github.com/angular/angular/security/advisories/GHSA-q6f4-qqrg-jv6x",
+      "published_at": "2026-05-28T17:04:00Z",
+      "severity": "high"
+    },
+    {
       "ghsa_id": "GHSA-ccq4-xmxr-8hcq",
-      "summary": "Multiple Remote Code Execution Vulnerabilities in Angular Language Service VS Code Extension",
+      "summary": "Insecure Workspace Configuration and Dynamic Library Loading in VS Code Angular Language Service Extension",
       "html_url": "https://github.com/angular/angular/security/advisories/GHSA-ccq4-xmxr-8hcq",
       "published_at": "2026-05-23T08:07:26Z",
-      "severity": "high"
+      "severity": "critical"
     },
     {
       "ghsa_id": "GHSA-rfh7-fxqc-q52v",
@@ -64,5 +113,5 @@
       "severity": "high"
     }
   ],
-  "lastChecked": "2026-05-23T12:07:38.258Z"
+  "lastChecked": "2026-05-29T01:28:26.699Z"
 }
