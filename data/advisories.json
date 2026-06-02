@@ -1,6 +1,20 @@
 {
   "advisories": [
     {
+      "ghsa_id": "GHSA-hqr9-c56f-3x7f",
+      "summary": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') in @angular/platform-server",
+      "html_url": "https://github.com/angular/angular/security/advisories/GHSA-hqr9-c56f-3x7f",
+      "published_at": "2026-06-02T11:20:46Z",
+      "severity": "high"
+    },
+    {
+      "ghsa_id": "GHSA-gxx4-3xcv-f8qx",
+      "summary": "Missing `<noscript>` Raw-Text Serialization Escaping leads to Cross-Site Scripting (XSS) in Angular SSR",
+      "html_url": "https://github.com/angular/angular/security/advisories/GHSA-gxx4-3xcv-f8qx",
+      "published_at": "2026-06-02T11:20:53Z",
+      "severity": "high"
+    },
+    {
       "ghsa_id": "GHSA-95qp-cmmw-mgqv",
       "summary": "Request Credential & Cache Policy Stripping in Angular Service Worker",
       "html_url": "https://github.com/angular/angular/security/advisories/GHSA-95qp-cmmw-mgqv",
@@ -113,5 +127,5 @@
       "severity": "high"
     }
   ],
-  "lastChecked": "2026-05-29T01:28:26.699Z"
+  "lastChecked": "2026-06-02T15:11:06.681Z"
 }
