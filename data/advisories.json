@@ -1,6 +1,13 @@
 {
   "advisories": [
     {
+      "ghsa_id": "GHSA-f3m7-gqxr-g87x",
+      "summary": "Template and Attribute Namespace Sanitization Bypass (XSS)",
+      "html_url": "https://github.com/angular/angular/security/advisories/GHSA-f3m7-gqxr-g87x",
+      "published_at": "2026-06-05T06:57:59Z",
+      "severity": "medium"
+    },
+    {
       "ghsa_id": "GHSA-hqr9-c56f-3x7f",
       "summary": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') in @angular/platform-server",
       "html_url": "https://github.com/angular/angular/security/advisories/GHSA-hqr9-c56f-3x7f",
@@ -37,7 +44,7 @@
     },
     {
       "ghsa_id": "GHSA-692r-grfm-v8x7",
-      "summary": "Angular Template and Dynamic Component Namespace Bypass leading to Cross-Site Scripting (XSS)",
+      "summary": "Dynamic Component Instantiation Mounting Protection Bypass (XSS)",
       "html_url": "https://github.com/angular/angular/security/advisories/GHSA-692r-grfm-v8x7",
       "published_at": "2026-05-28T17:03:43Z",
       "severity": "medium"
@@ -127,5 +134,5 @@
       "severity": "high"
     }
   ],
-  "lastChecked": "2026-06-02T15:11:06.681Z"
+  "lastChecked": "2026-06-05T14:03:08.613Z"
 }
