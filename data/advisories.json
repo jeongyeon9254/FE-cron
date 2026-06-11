@@ -1,6 +1,41 @@
 {
   "advisories": [
     {
+      "ghsa_id": "GHSA-qxh6-94w6-9r5p",
+      "summary": "Sensitive Header Leakage on Cross-Origin Redirects in Angular Service Worker",
+      "html_url": "https://github.com/angular/angular/security/advisories/GHSA-qxh6-94w6-9r5p",
+      "published_at": "2026-06-10T20:30:51Z",
+      "severity": "high"
+    },
+    {
+      "ghsa_id": "GHSA-48r7-hpm6-gfxm",
+      "summary": "Denial of Service (DoS) via OOM in Date Formatting (formatDate)",
+      "html_url": "https://github.com/angular/angular/security/advisories/GHSA-48r7-hpm6-gfxm",
+      "published_at": "2026-06-10T20:30:43Z",
+      "severity": "high"
+    },
+    {
+      "ghsa_id": "GHSA-rgjc-h3x7-9mwg",
+      "summary": "Angular Client Hydration DOM Clobbering & Response-Cache Poisoning",
+      "html_url": "https://github.com/angular/angular/security/advisories/GHSA-rgjc-h3x7-9mwg",
+      "published_at": "2026-06-10T20:30:38Z",
+      "severity": "high"
+    },
+    {
+      "ghsa_id": "GHSA-39pv-4j6c-2g6v",
+      "summary": "Weak 32-Bit Cache Key Hashing in `HttpTransferCache` Leading to Cross-Request Data Leakage and State Poisoning",
+      "html_url": "https://github.com/angular/angular/security/advisories/GHSA-39pv-4j6c-2g6v",
+      "published_at": "2026-06-10T20:30:32Z",
+      "severity": "high"
+    },
+    {
+      "ghsa_id": "GHSA-58w9-8g37-x9v5",
+      "summary": "Two-Way Property Binding Sanitization Bypass (XSS)",
+      "html_url": "https://github.com/angular/angular/security/advisories/GHSA-58w9-8g37-x9v5",
+      "published_at": "2026-06-10T20:30:25Z",
+      "severity": "medium"
+    },
+    {
       "ghsa_id": "GHSA-f3m7-gqxr-g87x",
       "summary": "Template and Attribute Namespace Sanitization Bypass (XSS)",
       "html_url": "https://github.com/angular/angular/security/advisories/GHSA-f3m7-gqxr-g87x",
@@ -134,5 +169,5 @@
       "severity": "high"
     }
   ],
-  "lastChecked": "2026-06-05T14:03:08.613Z"
+  "lastChecked": "2026-06-11T01:42:10.681Z"
 }
