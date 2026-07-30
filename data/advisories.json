@@ -1,6 +1,27 @@
 {
   "advisories": [
     {
+      "ghsa_id": "GHSA-vpx6-8pjr-4g3v",
+      "summary": "Missing Fallback Raw-Content Serialization Escaping leads to Cross-Site Scripting (XSS) in Angular SSR",
+      "html_url": "https://github.com/angular/angular/security/advisories/GHSA-vpx6-8pjr-4g3v",
+      "published_at": "2026-07-29T20:45:12Z",
+      "severity": "high"
+    },
+    {
+      "ghsa_id": "GHSA-jhpw-976m-542j",
+      "summary": "Cache-Key Ambiguity in HttpTransferCache Leading to Cross-Request Response Reuse and State Poisoning",
+      "html_url": "https://github.com/angular/angular/security/advisories/GHSA-jhpw-976m-542j",
+      "published_at": "2026-07-29T20:45:08Z",
+      "severity": "high"
+    },
+    {
+      "ghsa_id": "GHSA-jj27-h5hq-8x99",
+      "summary": "Cross-Site Scripting (XSS) via event-handler attributes in Angular i18n",
+      "html_url": "https://github.com/angular/angular/security/advisories/GHSA-jj27-h5hq-8x99",
+      "published_at": "2026-07-29T20:45:03Z",
+      "severity": "high"
+    },
+    {
       "ghsa_id": "GHSA-qxh6-94w6-9r5p",
       "summary": "Sensitive Header Leakage on Cross-Origin Redirects in Angular Service Worker",
       "html_url": "https://github.com/angular/angular/security/advisories/GHSA-qxh6-94w6-9r5p",
@@ -169,5 +190,5 @@
       "severity": "high"
     }
   ],
-  "lastChecked": "2026-06-11T01:42:10.681Z"
+  "lastChecked": "2026-07-30T00:12:31.454Z"
 }
