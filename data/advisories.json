@@ -1,6 +1,13 @@
 {
   "advisories": [
     {
+      "ghsa_id": "GHSA-hh8m-fm6v-7cvg",
+      "summary": "Sanitization bypass via directive host bindings on concrete host elements in @angular/core and @angular/compiler",
+      "html_url": "https://github.com/angular/angular/security/advisories/GHSA-hh8m-fm6v-7cvg",
+      "published_at": "2026-08-18T09:12:59Z",
+      "severity": "medium"
+    },
+    {
       "ghsa_id": "GHSA-vpx6-8pjr-4g3v",
       "summary": "Missing Fallback Raw-Content Serialization Escaping leads to Cross-Site Scripting (XSS) in Angular SSR",
       "html_url": "https://github.com/angular/angular/security/advisories/GHSA-vpx6-8pjr-4g3v",
@@ -190,5 +197,5 @@
       "severity": "high"
     }
   ],
-  "lastChecked": "2026-07-30T00:12:31.454Z"
+  "lastChecked": "2026-08-18T11:40:59.401Z"
 }
