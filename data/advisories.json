@@ -1,11 +1,32 @@
 {
   "advisories": [
     {
+      "ghsa_id": "GHSA-f6mr-pjwc-34m4",
+      "summary": "SSRF and Cross-Origin Credential Disclosure via URL Resolution Discrepancy in SSR",
+      "html_url": "https://github.com/angular/angular/security/advisories/GHSA-f6mr-pjwc-34m4",
+      "published_at": "2026-08-27T05:45:22Z",
+      "severity": "high"
+    },
+    {
       "ghsa_id": "GHSA-p297-fm68-3q8c",
       "summary": "Information Leak via `HttpTransferCache` Bypass When Using `withRequestsMadeViaParent`",
       "html_url": "https://github.com/angular/angular/security/advisories/GHSA-p297-fm68-3q8c",
       "published_at": "2026-08-20T10:15:43Z",
       "severity": "medium"
+    },
+    {
+      "ghsa_id": "GHSA-j3r3-mxqp-r2p4",
+      "summary": "SSR XSS via Unescaped Processing Instruction (<?...?>) Nodes in Fallback Raw-Content Elements",
+      "html_url": "https://github.com/angular/angular/security/advisories/GHSA-j3r3-mxqp-r2p4",
+      "published_at": "2026-08-27T05:45:32Z",
+      "severity": "high"
+    },
+    {
+      "ghsa_id": "GHSA-v3p8-whq6-r5jg",
+      "summary": "SSR XSS via Unescaped <template> Content Across DocumentFragment Boundaries in Fallback Raw-Content Elements",
+      "html_url": "https://github.com/angular/angular/security/advisories/GHSA-v3p8-whq6-r5jg",
+      "published_at": "2026-08-27T05:45:39Z",
+      "severity": "high"
     },
     {
       "ghsa_id": "GHSA-hh8m-fm6v-7cvg",
@@ -188,21 +209,7 @@
       "html_url": "https://github.com/angular/angular/security/advisories/GHSA-v4hv-rgfq-gp49",
       "published_at": "2025-12-01T11:54:06Z",
       "severity": "high"
-    },
-    {
-      "ghsa_id": "GHSA-58c5-g7wp-6w37",
-      "summary": "XSRF Token Leakage via Protocol-Relative URLs in Angular HTTP Client",
-      "html_url": "https://github.com/angular/angular/security/advisories/GHSA-58c5-g7wp-6w37",
-      "published_at": "2025-11-26T08:36:38Z",
-      "severity": "high"
-    },
-    {
-      "ghsa_id": "GHSA-68x2-mx4q-78m7",
-      "summary": "Angular SSR: Global Platform Injector Race Condition Leads to Cross-Request Data Leakage",
-      "html_url": "https://github.com/angular/angular/security/advisories/GHSA-68x2-mx4q-78m7",
-      "published_at": "2025-09-10T19:57:21Z",
-      "severity": "high"
     }
   ],
-  "lastChecked": "2026-08-20T11:42:37.113Z"
+  "lastChecked": "2026-08-27T21:02:12.135Z"
 }
