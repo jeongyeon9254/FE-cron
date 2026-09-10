@@ -1,6 +1,13 @@
 {
   "advisories": [
     {
+      "ghsa_id": "GHSA-f67j-2jqw-jpq7",
+      "summary": "Denial of Service (DoS) via Infinite Loop on Malformed DOCTYPE in Angular SSR",
+      "html_url": "https://github.com/angular/angular/security/advisories/GHSA-f67j-2jqw-jpq7",
+      "published_at": "2026-09-09T20:36:09Z",
+      "severity": "high"
+    },
+    {
       "ghsa_id": "GHSA-f6mr-pjwc-34m4",
       "summary": "SSRF and Cross-Origin Credential Disclosure via URL Resolution Discrepancy in SSR",
       "html_url": "https://github.com/angular/angular/security/advisories/GHSA-f6mr-pjwc-34m4",
@@ -202,14 +209,7 @@
       "html_url": "https://github.com/angular/angular/security/advisories/GHSA-jrmj-c5cx-3cw6",
       "published_at": "2026-01-08T20:57:50Z",
       "severity": "high"
-    },
-    {
-      "ghsa_id": "GHSA-v4hv-rgfq-gp49",
-      "summary": "Stored XSS Vulnerability via SVG Animation, SVG URL and MathML Attributes",
-      "html_url": "https://github.com/angular/angular/security/advisories/GHSA-v4hv-rgfq-gp49",
-      "published_at": "2025-12-01T11:54:06Z",
-      "severity": "high"
     }
   ],
-  "lastChecked": "2026-08-27T21:02:12.135Z"
+  "lastChecked": "2026-09-10T01:07:41.126Z"
 }
