@@ -8,6 +8,13 @@
       "severity": "high"
     },
     {
+      "ghsa_id": "GHSA-r653-wxfp-pp9c",
+      "summary": "Angular DevTools (Local DoS)",
+      "html_url": "https://github.com/angular/angular/security/advisories/GHSA-r653-wxfp-pp9c",
+      "published_at": "2026-09-16T13:23:27Z",
+      "severity": "medium"
+    },
+    {
       "ghsa_id": "GHSA-f6mr-pjwc-34m4",
       "summary": "SSRF and Cross-Origin Credential Disclosure via URL Resolution Discrepancy in SSR",
       "html_url": "https://github.com/angular/angular/security/advisories/GHSA-f6mr-pjwc-34m4",
@@ -202,14 +209,7 @@
       "html_url": "https://github.com/angular/angular/security/advisories/GHSA-prjf-86w9-mfqv",
       "published_at": "2026-02-25T20:43:36Z",
       "severity": "high"
-    },
-    {
-      "ghsa_id": "GHSA-jrmj-c5cx-3cw6",
-      "summary": "XSS Vulnerability via Unsanitized SVG Script Attributes",
-      "html_url": "https://github.com/angular/angular/security/advisories/GHSA-jrmj-c5cx-3cw6",
-      "published_at": "2026-01-08T20:57:50Z",
-      "severity": "high"
     }
   ],
-  "lastChecked": "2026-09-10T01:07:41.126Z"
+  "lastChecked": "2026-09-17T01:29:00.419Z"
 }
