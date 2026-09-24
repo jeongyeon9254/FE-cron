@@ -1,6 +1,13 @@
 {
   "advisories": [
     {
+      "ghsa_id": "GHSA-ff3f-86qr-9cv3",
+      "summary": "Denial of Service via Numeric URL Matrix Parameters in Server-Side Rendering (SSR)",
+      "html_url": "https://github.com/angular/angular/security/advisories/GHSA-ff3f-86qr-9cv3",
+      "published_at": "2026-09-23T19:02:54Z",
+      "severity": "high"
+    },
+    {
       "ghsa_id": "GHSA-f67j-2jqw-jpq7",
       "summary": "Denial of Service (DoS) via Infinite Loop on Malformed DOCTYPE in Angular SSR",
       "html_url": "https://github.com/angular/angular/security/advisories/GHSA-f67j-2jqw-jpq7",
@@ -202,14 +209,7 @@
       "html_url": "https://github.com/angular/angular/security/advisories/GHSA-g93w-mfhg-p222",
       "published_at": "2026-03-13T08:52:11Z",
       "severity": "high"
-    },
-    {
-      "ghsa_id": "GHSA-prjf-86w9-mfqv",
-      "summary": "Cross-Site Scripting (XSS) in Angular i18n",
-      "html_url": "https://github.com/angular/angular/security/advisories/GHSA-prjf-86w9-mfqv",
-      "published_at": "2026-02-25T20:43:36Z",
-      "severity": "high"
     }
   ],
-  "lastChecked": "2026-09-17T01:29:00.419Z"
+  "lastChecked": "2026-09-24T01:27:48.186Z"
 }
