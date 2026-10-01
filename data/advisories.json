@@ -8,6 +8,13 @@
       "severity": "medium"
     },
     {
+      "ghsa_id": "GHSA-57xq-rjx2-v5xh",
+      "summary": "Denial of Service via RouterLink Query Parameter Retention in Server-Side Rendering (SSR)",
+      "html_url": "https://github.com/angular/angular/security/advisories/GHSA-57xq-rjx2-v5xh",
+      "published_at": "2026-10-01T05:33:15Z",
+      "severity": "high"
+    },
+    {
       "ghsa_id": "GHSA-62vg-58rm-qff7",
       "summary": "Denial of Service via Unmatched Empty-Path Outlet Route Matching in Server-Side Rendering (SSR)",
       "html_url": "https://github.com/angular/angular/security/advisories/GHSA-62vg-58rm-qff7",
@@ -202,14 +209,7 @@
       "html_url": "https://github.com/angular/angular/security/advisories/GHSA-ccq4-xmxr-8hcq",
       "published_at": "2026-05-23T08:07:26Z",
       "severity": "critical"
-    },
-    {
-      "ghsa_id": "GHSA-rfh7-fxqc-q52v",
-      "summary": "SSRF via Hostname Hijacking in @angular/platform-server",
-      "html_url": "https://github.com/angular/angular/security/advisories/GHSA-rfh7-fxqc-q52v",
-      "published_at": "2026-05-14T05:40:25Z",
-      "severity": "high"
     }
   ],
-  "lastChecked": "2026-10-01T02:11:40.810Z"
+  "lastChecked": "2026-10-01T17:22:28.327Z"
 }
