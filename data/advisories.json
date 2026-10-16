@@ -1,6 +1,13 @@
 {
   "advisories": [
     {
+      "ghsa_id": "GHSA-jfgx-762w-99vr",
+      "summary": "XSRF Token Leakage via URL Parsing Discrepancy in Angular HTTP Client (Incomplete fix for CVE-2025-66035)",
+      "html_url": "https://github.com/angular/angular/security/advisories/GHSA-jfgx-762w-99vr",
+      "published_at": "2026-10-16T07:43:16Z",
+      "severity": "high"
+    },
+    {
       "ghsa_id": "GHSA-w739-gvwx-grc3",
       "summary": "Open Redirect via Protocol-Relative URLs in Server-Side Rendering (SSR)",
       "html_url": "https://github.com/angular/angular/security/advisories/GHSA-w739-gvwx-grc3",
@@ -202,14 +209,7 @@
       "html_url": "https://github.com/angular/angular/security/advisories/GHSA-q6f4-qqrg-jv6x",
       "published_at": "2026-05-28T17:04:00Z",
       "severity": "high"
-    },
-    {
-      "ghsa_id": "GHSA-ccq4-xmxr-8hcq",
-      "summary": "Insecure Workspace Configuration and Dynamic Library Loading in VS Code Angular Language Service Extension",
-      "html_url": "https://github.com/angular/angular/security/advisories/GHSA-ccq4-xmxr-8hcq",
-      "published_at": "2026-05-23T08:07:26Z",
-      "severity": "critical"
     }
   ],
-  "lastChecked": "2026-10-01T17:22:28.327Z"
+  "lastChecked": "2026-10-16T15:22:19.642Z"
 }
