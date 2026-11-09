@@ -1,6 +1,13 @@
 {
   "advisories": [
     {
+      "ghsa_id": "GHSA-ffj9-42qx-f38h",
+      "summary": "Cross-Site Scripting (XSS) via AngularJS Double Compilation in @angular/upgrade's downgradeComponent()",
+      "html_url": "https://github.com/angular/angular/security/advisories/GHSA-ffj9-42qx-f38h",
+      "published_at": "2026-11-09T08:27:11Z",
+      "severity": "medium"
+    },
+    {
       "ghsa_id": "GHSA-jfgx-762w-99vr",
       "summary": "XSRF Token Leakage via URL Parsing Discrepancy in Angular HTTP Client (Incomplete fix for CVE-2025-66035)",
       "html_url": "https://github.com/angular/angular/security/advisories/GHSA-jfgx-762w-99vr",
@@ -202,14 +209,7 @@
       "html_url": "https://github.com/angular/angular/security/advisories/GHSA-p3vc-36g9-x9gr",
       "published_at": "2026-05-28T17:04:13Z",
       "severity": "high"
-    },
-    {
-      "ghsa_id": "GHSA-q6f4-qqrg-jv6x",
-      "summary": "Information Leak via Default Caching of Credentialed Requests in HttpTransferCache",
-      "html_url": "https://github.com/angular/angular/security/advisories/GHSA-q6f4-qqrg-jv6x",
-      "published_at": "2026-05-28T17:04:00Z",
-      "severity": "high"
     }
   ],
-  "lastChecked": "2026-10-16T15:22:19.642Z"
+  "lastChecked": "2026-11-09T21:26:22.264Z"
 }
